@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    background-color: #FFF7B3;
+}
+
+.footerAbout {
+    background-color: #FFB3B3;
+}
+
+/* .footerProducts{
+
+}
+
+.footerProductPage{
+
+} */
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18rem;
+}
+
+.social img{
+    width: auto;
+    height: 3rem;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding-bottom: 2.5rem;
+}

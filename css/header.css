@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: #C9A6DA;
+    height: 6.5rem;
+}
+
+.logo-nav {
+    position: relative;
+    top: 0.6rem;
+    left: 4rem;
+    border-radius: 1rem;
+    height: 5rem;
+}
+
+.aboutUs-nav,  .products-nav {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #C0C5F2;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 6rem;
+    bottom: 1.7rem;
+    padding: 0.7rem 0.8rem;
+    border-radius: 0.5rem;
+    margin-left: 6rem;
+}
+
+.favo, .shopping-cart {
+    height: 2rem;
+    justify-content: end;
+}
+
+.favo {
+    position: relative;
+    left: 40rem;
+    bottom: 0.8rem;
+}
+
+.shopping-cart {
+    position: relative;
+    left: 41rem;
+    bottom: 0.8rem;
+}
